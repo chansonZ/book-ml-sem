@@ -1,4 +1,4 @@
 # book-ml-sem
-机器学习：软件工程方法
+机器学习：软件工程方法与实现
 
-Machine Learning Software Engineering Method
+Method and implementation of machine learning software engineering
