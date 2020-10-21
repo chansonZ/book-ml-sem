@@ -1,0 +1,49 @@
+# nohup docker build -t chansonz/ml_dev_env:v1.4 . > /tmp/dockerbuild.log 2>&1 &
+
+FROM chansonz/ml_dev_env:v1.3
+
+LABEL MAINTAINER="Chanson Zhang <xtdwxk@gmail.com>"
+
+ENV LC_ALL=C.UTF-8
+ENV LANG=C.UTF-8
+
+ENV PYTHON_PACKAGES="\
+    numpy \
+    matplotlib \
+    scipy \
+    scikit-learn \
+    scikit-image \
+    pandas \
+    imblearn \
+    yapf \
+    seaborn \
+    missingno \
+    xlrd \
+    openpyxl \
+    graphviz \
+    python-dotenv \
+    xgboost \
+    lightgbm \ 
+    psutil \
+    statsmodels \
+    minepy \
+    lime \
+    featuretools \
+    shap \
+    treeinterpreter \
+    pipenv \
+    jupyter \
+    jupyter_contrib_nbextensions \
+    jupyter_nbextensions_configurator \
+"
+# --default-timeout=100 安装时容易下载超时
+RUN pip3 --default-timeout=100 install --upgrade $PYTHON_PACKAGES
+RUN pip3 --default-timeout=100 install catboost
+
+
+RUN jupyter contrib nbextension install --user && \
+    #jupyter nbextensions_configurator enable && \
+    rm -rf ~/.cache
+
+
+
