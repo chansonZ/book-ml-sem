@@ -26,10 +26,10 @@ This book is a practical collection of machine learning engineering for **advanc
 
 The book consists of **16** chapters, divided into **4** parts:
 
-**Engineering Fundamentals (1～3): **
+**Engineering Fundamentals (1～3):**
 Introduces the integration of machine learning and software engineering, involving theories, methods, engineering data science environment and data preparation;
 
-**Machine Learning Fundamentals (4~5): **
+**Machine Learning Fundamentals (4~5):**
 Describes the machine learning modeling process, core concepts, and data analysis methods.
 
 **Features (6～8):** 
