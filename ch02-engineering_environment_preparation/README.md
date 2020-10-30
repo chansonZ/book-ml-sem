@@ -55,8 +55,12 @@ docker run  -v /a:/b
 
 # 数据科学项目标准化
 
-下载本书提供的镜像：https://hub.docker.com
-搜索： chansonz/ml_dev_env
+下载本书提供的镜像：
+
+```shell
+docker pull chansonz/ml_dev_env
+```
+> https://hub.docker.com   搜索： chansonz/ml_dev_env
 
 ## 新建项目工程
 
