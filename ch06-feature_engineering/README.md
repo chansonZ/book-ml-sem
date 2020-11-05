@@ -1,5 +1,5 @@
 
-之所以没有直接给jupyter notebook而是这里的文档,是希望大家实践时慢一点，思考一下，然后再执行。
+之所以没有直接给jupyter notebook而是这里的文档,是希望大家实践时慢一点，思考一下，然后再执行。请对照书中讲解操作：
 
 # import
 
@@ -179,6 +179,7 @@ pd.crosstab(test_df['y'], test_df['x'],margins=True)
 |    1 |  184 |  170 |  165 |  519 |
 |  All |  337 |  335 |  328 | 1000 |
 
+## 计算WOE
 
 ```python
 cal_woe(test_df['x'],test_df['y'])
@@ -285,6 +286,7 @@ cutoff
 ```
 
     array([ 6.981, 11.7  , 13.37 , 15.78 , 28.11 ])
+    
 ## 高级离散化方法
 
 ### 熵
