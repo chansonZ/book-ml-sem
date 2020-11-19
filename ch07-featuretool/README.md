@@ -186,6 +186,7 @@ print(
 
 ```
 
+```python
 Parent: app, Parent Variable of bureau: SK_ID_CURR
 
     SK_ID_CURR  TARGET  TOTALAREA_MODE
@@ -206,7 +207,7 @@ Child: bureau, Child Variable of app: SK_ID_CURR
 37889      675689      100002       6158909
 75006     1337779      100002       6158903
 83119     1486113      100002       6113835
-
+```
 
 ## 添加到EntitySet中
 
@@ -237,8 +238,7 @@ es = es.add_relationships([r_app_bureau, r_bureau_balance, r_app_previous,
                            r_previous_cash, r_previous_installments, r_previous_credit])
 
 es
-# 输出实体集信息  
-```
+
 
 Entityset: clients
   Entities:
@@ -256,6 +256,8 @@ Entityset: clients
     cash.SK_ID_PREV -> previous.SK_ID_PREV
     installments.SK_ID_PREV -> previous.SK_ID_PREV
     credit.SK_ID_PREV -> previous.SK_ID_PREV
+    
+```
 
 # 特征基元
 
@@ -293,6 +295,8 @@ feature_matrixp[['AMT_ANNUITY','PLUSONE(AMT_ANNUITY)','COUNT(bureau)','PLUSONE(C
 # 深度特征合成
 
 # 使用dfs默认基元合成特征
+
+```python
 feature_names = ft.dfs(entityset=es,
                        target_entity='app',
                        features_only=True)
@@ -309,7 +313,7 @@ feature_names[1000:1010]
  <Feature: STD(previous.MIN(credit.CNT_DRAWINGS_CURRENT))>,
  <Feature: STD(previous.MIN(cash.MONTHS_BALANCE))>,
  <Feature: STD(previous.SUM(credit.SK_DPD))>]
- 
+```
  
  ```python
  
