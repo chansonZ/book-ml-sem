@@ -171,7 +171,7 @@ es = es.entity_from_dataframe(entity_id='credit',
 
 es
 # 输出实体集信息  
-
+```
 
 ## 构建关系
 
