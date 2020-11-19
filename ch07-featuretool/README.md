@@ -9,7 +9,7 @@ https://docs.featuretools.com/api_reference.html
 
 ## 聚合基元
 
-```python`
+```python
 import featuretools as ft
  
 primitives = ft.list_primitives()
