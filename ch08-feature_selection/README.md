@@ -3,7 +3,7 @@
 不急，慢点学习。
 
 # StepWise 
-前向选择、后向选择、前-后向、后—前算法实现，向请参考书中介绍和源码
+前向选择、后向选择、前-后向、后-前算法实现，向请参考书中介绍和源码
 
 - forward
 - backward
@@ -137,7 +137,7 @@ selected
 '''
 例如：
 petal length (cm) 被10个选择算法选中，排名第一
-sepal width (cm) 被5个算法选中：by_var，by_RFE_svm，by_RFE_lr，by_svm，by_lr
+sepal length (cm) 被5个算法选中：by_var,by_max_info,by_pearson,by_svm,by_lr
 '''
 stat_f
 ```
