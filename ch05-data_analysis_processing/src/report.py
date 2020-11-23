@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-# Chanson 21:30
+# 张春强 21:30
+# 《机器学习：软件工程方法与实现》 第5章 数据分析与处理
 
 import sys, os
 import pandas as pd

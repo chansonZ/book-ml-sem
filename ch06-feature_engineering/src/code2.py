@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+# 张春强
+# 《机器学习：软件工程方法与实现》 第6章 特征工程
 
 from sklearn.tree import DecisionTreeClassifier
 # max_depth=3，表示进行3次划分构造3层的树结构

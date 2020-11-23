@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+# 张春强
+# 《机器学习：软件工程方法与实现》 第6章 特征工程
+
 
 def map_data_by_value_count(ser, count):
     ''' 小于count的统一为一组 '''
