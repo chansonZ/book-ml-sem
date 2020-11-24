@@ -36,10 +36,20 @@ class StepWise:
         self.func_model = func_model if func_model is not None else StepWise.sm_logit
         self.X = X
         self.y = y
+   
+    @staticmethod
+    def sm_logit(X, y):# 高斯，柏松等自行添加
+        return sm.GLM(
+            y, sm.add_constant(X), family=sm.families.Binomial()).fit()
+
+    def _print(self, pvs, bak_print, flag):
+        t = 'select' if flag else 'remove'
+        if pvs.notna().any():
+            print('{}:{:30},BIC={:.6f},pv={:.6f}'.format(
+                t, pvs.idxmin(), pvs.min(), bak_print[pvs.idxmin()]))     
         
         
-        
-        def _forward(self, X, y, selected, sle=0.1, verbose=False):
+    def _forward(self, X, y, selected, sle=0.1, verbose=False):
         ''' 得到候选特征中最好的一个变量，要求pv小于sle '''
         candidate = list(set(X.columns.tolist()) - set(selected))
         pvs = pd.Series(index=candidate)
