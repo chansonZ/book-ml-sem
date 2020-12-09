@@ -38,5 +38,4 @@ Introduced in detail the methods and implementation of various feature discretiz
 **Model section (9-16):**
 In-depth description of linear model, tree model and integrated model principle and model analysis; based on the model foundation, further describes the model parameter adjustment method, automatic parameter adjustment principle and realization, model evaluation and different models ( White box, black box) explain the principle and implementation; the model-as-a-service chapter of model deployment provides 5 kinds of methods; finally, the chapter model monitoring ends the last step of the machine learning project process.
 
-
-![cover](cover.jpg)
+<img src="cover.jpg" width = "383" height = "500" alt="" align=center />
