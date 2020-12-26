@@ -4,13 +4,12 @@
 
 错误：
 
-![error](./imgs/e1.png)
+<img src="./imgs/e1.png" width = "355" height = "65" alt="" align=center />
 
 
 更正为：
 
-![right](./imgs/r1.png)
-
+<img src="./imgs/r1.png" width = "379" height = "71" alt="" align=center />
 
 
 
