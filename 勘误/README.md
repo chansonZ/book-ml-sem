@@ -3,19 +3,11 @@
 
 
 错误：
-$$
-L_\delta=\left\{
-\begin{array}{rcl}
-\frac{1}{2}(y_i-f(x_i))     &      & {\mid y_i-f(x_i)\mid < \delta }\\
-\delta (y_i-f(x_i)) - \frac{1}{2}\delta   &      & {其他}\\
-\end{array} \right. 
-$$
-
-
+![error](./imgs/e1.png)
 
 
 更正为：
-$$L_\delta=\left\{\begin{array}{rcl} \frac{1}{2}(y_i-f(x_i))^2     &      & {\mid y_i-f(x_i)\mid \le \delta }\\ \delta \ (\mid y_i-f(x_i)\mid - \frac{1}{2}{\delta})   &      & {其他}\\ \end{array} \right.$$
+![right](./imgs/r1.png)
 
 
 
