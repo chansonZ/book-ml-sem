@@ -23,7 +23,7 @@
 @staticmethod
     def all_na_cols(df, index=False):
         ''' 全是缺失值的列 ''' 
-    		if index:
+        if index:
             return DFutils.count_na_col(df) == df.shape[0]
         else:
             return DFutils.ser_index(DFutils.count_na_col(df) == df.shape[0])
@@ -33,10 +33,10 @@
 更正为：
 
 ```python
-		@staticmethod
+    @staticmethod
     def all_na_cols(df, index=False):
-				''' 全是缺失值的列 ''' 
-    		if index:
+        ''' 全是缺失值的列 ''' 
+        if index:
             return DFutils.count_na_col(df) == df.shape[0]
         else:
             return DFutils.ser_index(DFutils.count_na_col(df) == df.shape[0])
