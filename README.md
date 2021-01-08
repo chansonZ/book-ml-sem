@@ -120,3 +120,17 @@ In-depth description of linear model, tree model and integrated model principle 
 模型上线后的监控依然重要，决定了模型是否可用、是否重训或重建。
 本章讲述了模型稳定性常用监控指标和原理，并提供了**高质量代码实现**，此外还介绍了一些监控异常的应急处理方法。
 
+
+
+京东：https://item.jd.com/13038672.html
+
+
+
+当当：http://product.dangdang.com/29163426.html
+
+
+
+
+![](poster.jpeg)
+
+
