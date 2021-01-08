@@ -121,16 +121,15 @@ In-depth description of linear model, tree model and integrated model principle 
 本章讲述了模型稳定性常用监控指标和原理，并提供了**高质量代码实现**，此外还介绍了一些监控异常的应急处理方法。
 
 
+# 购买链接
 
 京东：https://item.jd.com/13038672.html
-
 
 
 当当：http://product.dangdang.com/29163426.html
 
 
 
-
-![](poster.jpeg)
+![海报](poster.jpeg)
 
 
