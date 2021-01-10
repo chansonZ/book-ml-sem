@@ -75,11 +75,12 @@ a = pd.DataFrame({'col1': a1, 'col2': a2})
 psi_df = cal_df_psi(e, a)
 
 psi_df
-```
 
-​      column	psi
+      column	psi
 0	col1	0.292292
 1	col2	0.184779
+
+```
 
 
 ## 模拟空值计算PSI
@@ -95,15 +96,18 @@ a[20:25] = np.NaN
 psi_d = psi(pd.Series(e),pd.Series(a))
 ```
 
+```
 Nan statistics for expect:
 8
 Nan statistics for actual:
 5
     Drop Nan !!
+```
+
 
 ```python
 psi_d
-```
+
 
 {'data':                   expect_pct  actual_pct
  (-2.698, -1.251]    0.108696    0.136842
@@ -116,3 +120,5 @@ psi_d
  (0.593, 0.823]      0.097826    0.084211
  (0.823, 1.345]      0.097826    0.115789
  (1.345, 2.573]      0.097826    0.063158, 'statistic': 0.36488760566199535}
+```
+
