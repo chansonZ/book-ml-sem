@@ -46,7 +46,8 @@ def score(self, email_file):
 
 错误2:
 ```python 
-    def judge(score_dict):
+@staticmethod  
+  def judge(score_dict):
         '''二分类'''
         keys = list(score_dict.keys())
         if score_dict[keys[0]] >= score_dict[keys[1]]:
