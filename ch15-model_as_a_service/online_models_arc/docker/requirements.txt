@@ -1,0 +1,4 @@
+# anaconda2-3
+flask_restful
+gunicorn
+xgboost==0.82

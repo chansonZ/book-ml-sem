@@ -1,4 +1,4 @@
-第12章  模型调参
+# 第12章  模型调参
 
 相关数据和代码
 
@@ -59,7 +59,7 @@ Best: 0.779 : {'C': 0.1, 'penalty': 'l2', 'solver': 'liblinear'}
 0.779 [0.034] : {'C': 0.01, 'penalty': 'l2', 'solver': 'lbfgs'}
 0.778 [0.033] : {'C': 0.01, 'penalty': 'l2', 'solver': 'liblinear'}
 
-``` 
+```
 
 # XGBoost调参工具包使用示例
 

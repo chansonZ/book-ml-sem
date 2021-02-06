@@ -1,0 +1,10 @@
+model_name: classify_iris
+sub_models: 
+    all: 
+        model_file: svm_svc_model.z
+        data_order: [sepal_length,sepal_width,petal_length,petal_width]
+        data_dict: 
+            sepal_length: float
+            sepal_width: float
+            petal_length: float
+            petal_width: float

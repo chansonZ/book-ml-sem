@@ -1,0 +1,7 @@
+server_conf: 
+ host: localhost
+ server_port: 9876
+ debug: False
+ log_level: INFO
+ validate: True
+ 

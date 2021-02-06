@@ -1,3 +1,7 @@
+# 第7章 基于 Featuretools 的自动特征衍生
+
+相关数据和代码
+
 # featuretools 参考
 
 https://docs.featuretools.com/api_reference.html
@@ -314,7 +318,7 @@ feature_names[1000:1010]
  <Feature: STD(previous.MIN(cash.MONTHS_BALANCE))>,
  <Feature: STD(previous.SUM(credit.SK_DPD))>]
 ```
- 
+
  ```python
  
  # 选择运算基元

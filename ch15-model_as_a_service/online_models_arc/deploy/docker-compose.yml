@@ -1,0 +1,26 @@
+﻿version: '3.1'
+
+services:
+   model_1_xx:
+      container_name: model_1_xx
+      image: modelserver/py3:v1.0
+      ports:
+         - "0.0.0.0:9001:8888"
+      volumes:
+         - ./model_1_xx:/mnt:rw
+      command: bash -c "cd /root/modelserver/ && gunicorn -w 4 -b 0.0.0.0:8888 server:app --log-level INFO --error-logfile /mnt/gunicorn_err.log --daemon && /bin/bash"
+      stdin_open: true
+      tty: true
+      restart: always
+
+   model_2_xx:
+      container_name: model_2_xx
+      image: modelserver/py3:v1.0
+      ports:
+         - "0.0.0.0:9002:8888"
+      volumes:
+         - ./model_2_xx:/mnt:rw
+      command: bash -c "cd /root/modelserver/ && gunicorn -w 4 -b 0.0.0.0:8888 server:app --log-level INFO --error-logfile /mnt/gunicorn_err.log --daemon && /bin/bash"
+      stdin_open: true
+      tty: true
+      restart: always

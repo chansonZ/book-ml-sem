@@ -2,6 +2,13 @@
 # 张春强
 # 《机器学习：软件工程方法与实现》 第12章-模型调参
 
+import numpy as np
+import xgboost as xgb
+from sklearn.model_selection import GridSearchCV, RandomizedSearchCV
+from sklearn.model_selection import KFold, StratifiedKFold
+from scipy.stats import halfnorm,uniform,randint as sp_randint
+
+
 class TuneXGB():
     '''
     estimator：保留了中间参数的模型，用于手动调整

@@ -1,0 +1,150 @@
+[2019-09-01 12:51:57 +0800] [61343] [INFO] Starting gunicorn 19.9.0
+[2019-09-01 12:51:57 +0800] [61343] [INFO] Listening at: http://0.0.0.0:9876 (61343)
+[2019-09-01 12:51:57 +0800] [61343] [INFO] Using worker: sync
+[2019-09-01 12:51:57 +0800] [61346] [INFO] Booting worker with pid: 61346
+[2019-09-01 12:52:02,561] INFO in server: {'host': 'localhost', 'server_port': 9876, 'debug': False, 'log_level': 'INFO', 'validate': True, 'model_name': 'classify_iris'}
+[2019-09-01 12:52:02 +0800] [61346] [INFO] {'host': 'localhost', 'server_port': 9876, 'debug': False, 'log_level': 'INFO', 'validate': True, 'model_name': 'classify_iris'}
+[2019-09-01 12:52:02,562] INFO in server: 
+ Please visit: http://ip:9876/models/classify_iris/ 
+ 
+[2019-09-01 12:52:02 +0800] [61346] [INFO] 
+ Please visit: http://ip:9876/models/classify_iris/ 
+ 
+[2019-09-01 12:52:02,565] INFO in server: http://localhost:9876/models/classify_iris/
+[2019-09-01 12:52:02 +0800] [61346] [INFO] http://localhost:9876/models/classify_iris/
+[2019-09-01 12:52:02,567] ERROR in server: {'key': '', 'subtype': '', 'result': {'code': 401, 'msg': "invalid index to scalar variable.:{'submodel': 'all', 'key': '12345678901', 'data': {'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2}}", 'score': ''}}
+[2019-09-01 12:52:02 +0800] [61346] [ERROR] {'key': '', 'subtype': '', 'result': {'code': 401, 'msg': "invalid index to scalar variable.:{'submodel': 'all', 'key': '12345678901', 'data': {'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2}}", 'score': ''}}
+[2019-09-01 12:52:02,568] INFO in server: [receive] {'submodel': 'all', 'key': '12345678901', 'data': {'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2}}
+[2019-09-01 12:52:02 +0800] [61346] [INFO] [receive] {'submodel': 'all', 'key': '12345678901', 'data': {'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2}}
+[2019-09-01 12:52:02,569] INFO in server: [send] {'key': '', 'subtype': '', 'result': {'code': 401, 'msg': "invalid index to scalar variable.:{'submodel': 'all', 'key': '12345678901', 'data': {'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2}}", 'score': ''}}
+[2019-09-01 12:52:02 +0800] [61346] [INFO] [send] {'key': '', 'subtype': '', 'result': {'code': 401, 'msg': "invalid index to scalar variable.:{'submodel': 'all', 'key': '12345678901', 'data': {'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2}}", 'score': ''}}
+[2019-09-01 13:00:28 +0800] [61343] [CRITICAL] WORKER TIMEOUT (pid:61346)
+[2019-09-01 13:00:28 +0800] [61346] [INFO] Worker exiting (pid: 61346)
+[2019-09-01 13:00:29 +0800] [61615] [INFO] Booting worker with pid: 61615
+[2019-09-01 13:06:04 +0800] [61343] [CRITICAL] WORKER TIMEOUT (pid:61615)
+[2019-09-01 13:06:04 +0800] [61615] [INFO] Worker exiting (pid: 61615)
+[2019-09-01 13:06:04 +0800] [61652] [INFO] Booting worker with pid: 61652
+[2019-09-01 13:11:40 +0800] [61343] [CRITICAL] WORKER TIMEOUT (pid:61652)
+[2019-09-01 13:11:40 +0800] [61652] [INFO] Worker exiting (pid: 61652)
+[2019-09-01 13:11:40 +0800] [61690] [INFO] Booting worker with pid: 61690
+[2019-09-01 13:17:15 +0800] [61343] [CRITICAL] WORKER TIMEOUT (pid:61690)
+[2019-09-01 13:17:15 +0800] [61690] [INFO] Worker exiting (pid: 61690)
+[2019-09-01 13:17:15 +0800] [61728] [INFO] Booting worker with pid: 61728
+[2019-09-01 13:22:51 +0800] [61343] [CRITICAL] WORKER TIMEOUT (pid:61728)
+[2019-09-01 13:22:51 +0800] [61728] [INFO] Worker exiting (pid: 61728)
+[2019-09-01 13:22:51 +0800] [61766] [INFO] Booting worker with pid: 61766
+[2019-09-01 13:28:27 +0800] [61343] [CRITICAL] WORKER TIMEOUT (pid:61766)
+[2019-09-01 13:28:27 +0800] [61766] [INFO] Worker exiting (pid: 61766)
+[2019-09-01 13:28:27 +0800] [61802] [INFO] Booting worker with pid: 61802
+[2019-09-01 13:29:59 +0800] [61343] [INFO] Handling signal: int
+[2019-09-01 13:29:59 +0800] [61802] [INFO] Worker exiting (pid: 61802)
+[2019-09-01 13:29:59 +0800] [61343] [INFO] Shutting down: Master
+[2019-09-01 13:30:02 +0800] [61852] [INFO] Starting gunicorn 19.9.0
+[2019-09-01 13:30:02 +0800] [61852] [INFO] Listening at: http://0.0.0.0:9876 (61852)
+[2019-09-01 13:30:02 +0800] [61852] [INFO] Using worker: sync
+[2019-09-01 13:30:02 +0800] [61855] [INFO] Booting worker with pid: 61855
+[2019-09-01 13:30:08,034] INFO in server: {'host': 'localhost', 'server_port': 9876, 'debug': False, 'log_level': 'INFO', 'validate': True, 'model_name': 'classify_iris'}
+[2019-09-01 13:30:08 +0800] [61855] [INFO] {'host': 'localhost', 'server_port': 9876, 'debug': False, 'log_level': 'INFO', 'validate': True, 'model_name': 'classify_iris'}
+[2019-09-01 13:30:08,036] INFO in server: 
+ Please visit: http://ip:9876/models/classify_iris/ 
+ 
+[2019-09-01 13:30:08 +0800] [61855] [INFO] 
+ Please visit: http://ip:9876/models/classify_iris/ 
+ 
+[2019-09-01 13:30:08,043] INFO in server: http://localhost:9876/models/classify_iris/
+[2019-09-01 13:30:08 +0800] [61855] [INFO] http://localhost:9876/models/classify_iris/
+[2019-09-01 13:30:08,045] ERROR in server: {'key': '', 'subtype': '', 'result': {'code': 401, 'msg': "invalid index to scalar variable.:{'submodel': 'all', 'key': '12345678901', 'data': {'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2}}", 'score': ''}}
+[2019-09-01 13:30:08 +0800] [61855] [ERROR] {'key': '', 'subtype': '', 'result': {'code': 401, 'msg': "invalid index to scalar variable.:{'submodel': 'all', 'key': '12345678901', 'data': {'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2}}", 'score': ''}}
+[2019-09-01 13:30:08,046] INFO in server: [receive] {'submodel': 'all', 'key': '12345678901', 'data': {'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2}}
+[2019-09-01 13:30:08 +0800] [61855] [INFO] [receive] {'submodel': 'all', 'key': '12345678901', 'data': {'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2}}
+[2019-09-01 13:30:08,047] INFO in server: [send] {'key': '', 'subtype': '', 'result': {'code': 401, 'msg': "invalid index to scalar variable.:{'submodel': 'all', 'key': '12345678901', 'data': {'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2}}", 'score': ''}}
+[2019-09-01 13:30:08 +0800] [61855] [INFO] [send] {'key': '', 'subtype': '', 'result': {'code': 401, 'msg': "invalid index to scalar variable.:{'submodel': 'all', 'key': '12345678901', 'data': {'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2}}", 'score': ''}}
+[2019-09-01 13:34:22 +0800] [61852] [INFO] Handling signal: int
+[2019-09-01 13:34:22 +0800] [61855] [INFO] Worker exiting (pid: 61855)
+[2019-09-01 13:34:22 +0800] [61852] [INFO] Shutting down: Master
+[2019-09-01 13:34:26 +0800] [61867] [INFO] Starting gunicorn 19.9.0
+[2019-09-01 13:34:26 +0800] [61867] [INFO] Listening at: http://0.0.0.0:9876 (61867)
+[2019-09-01 13:34:26 +0800] [61867] [INFO] Using worker: sync
+[2019-09-01 13:34:26 +0800] [61870] [INFO] Booting worker with pid: 61870
+[2019-09-01 13:34:30,877] INFO in server: {'host': 'localhost', 'server_port': 9876, 'debug': False, 'log_level': 'INFO', 'validate': True, 'model_name': 'classify_iris'}
+[2019-09-01 13:34:30 +0800] [61870] [INFO] {'host': 'localhost', 'server_port': 9876, 'debug': False, 'log_level': 'INFO', 'validate': True, 'model_name': 'classify_iris'}
+[2019-09-01 13:34:30,878] INFO in server: 
+ Please visit: http://ip:9876/models/classify_iris/ 
+ 
+[2019-09-01 13:34:30 +0800] [61870] [INFO] 
+ Please visit: http://ip:9876/models/classify_iris/ 
+ 
+[2019-09-01 13:34:30,881] INFO in server: http://localhost:9876/models/classify_iris/
+[2019-09-01 13:34:30 +0800] [61870] [INFO] http://localhost:9876/models/classify_iris/
+[2019-09-01 13:34:30,883] INFO in server: [receive] {'submodel': 'all', 'key': '12345678901', 'data': {'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2}}
+[2019-09-01 13:34:30 +0800] [61870] [INFO] [receive] {'submodel': 'all', 'key': '12345678901', 'data': {'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2}}
+[2019-09-01 13:34:30,884] INFO in server: [send] {'key': '12345678901', 'subtype': 'all', 'result': {'code': 0, 'msg': 'success', 'score': 0.0}}
+[2019-09-01 13:34:30 +0800] [61870] [INFO] [send] {'key': '12345678901', 'subtype': 'all', 'result': {'code': 0, 'msg': 'success', 'score': 0.0}}
+[2019-09-01 14:24:19 +0800] [61867] [CRITICAL] WORKER TIMEOUT (pid:61870)
+[2019-09-01 14:24:19 +0800] [61870] [INFO] Worker exiting (pid: 61870)
+[2019-09-01 14:24:19 +0800] [61916] [INFO] Booting worker with pid: 61916
+[2019-09-01 14:29:58 +0800] [61867] [CRITICAL] WORKER TIMEOUT (pid:61916)
+[2019-09-01 14:29:58 +0800] [61916] [INFO] Worker exiting (pid: 61916)
+[2019-09-01 14:29:58 +0800] [61955] [INFO] Booting worker with pid: 61955
+[2019-09-01 14:35:33 +0800] [61867] [CRITICAL] WORKER TIMEOUT (pid:61955)
+[2019-09-01 14:35:33 +0800] [61955] [INFO] Worker exiting (pid: 61955)
+[2019-09-01 14:35:33 +0800] [61995] [INFO] Booting worker with pid: 61995
+[2019-09-01 14:41:09 +0800] [61867] [CRITICAL] WORKER TIMEOUT (pid:61995)
+[2019-09-01 14:41:09 +0800] [61995] [INFO] Worker exiting (pid: 61995)
+[2019-09-01 14:41:09 +0800] [62032] [INFO] Booting worker with pid: 62032
+[2019-09-01 14:46:45 +0800] [61867] [CRITICAL] WORKER TIMEOUT (pid:62032)
+[2019-09-01 14:46:45 +0800] [62032] [INFO] Worker exiting (pid: 62032)
+[2019-09-01 14:46:45 +0800] [62070] [INFO] Booting worker with pid: 62070
+[2019-09-01 14:52:20 +0800] [61867] [CRITICAL] WORKER TIMEOUT (pid:62070)
+[2019-09-01 14:52:20 +0800] [62070] [INFO] Worker exiting (pid: 62070)
+[2019-09-01 14:52:20 +0800] [62106] [INFO] Booting worker with pid: 62106
+[2019-09-01 14:57:56 +0800] [61867] [CRITICAL] WORKER TIMEOUT (pid:62106)
+[2019-09-01 14:57:56 +0800] [62106] [INFO] Worker exiting (pid: 62106)
+[2019-09-01 14:57:56 +0800] [62144] [INFO] Booting worker with pid: 62144
+[2019-09-01 15:45:51 +0800] [61867] [CRITICAL] WORKER TIMEOUT (pid:62144)
+[2019-09-01 15:45:51 +0800] [62144] [INFO] Worker exiting (pid: 62144)
+[2019-09-01 15:45:52 +0800] [62186] [INFO] Booting worker with pid: 62186
+[2019-09-01 16:28:51 +0800] [61867] [CRITICAL] WORKER TIMEOUT (pid:62186)
+[2019-09-01 16:28:52 +0800] [62186] [INFO] Worker exiting (pid: 62186)
+[2019-09-01 16:28:52 +0800] [62285] [INFO] Booting worker with pid: 62285
+[2019-09-01 19:04:00 +0800] [61867] [CRITICAL] WORKER TIMEOUT (pid:62285)
+[2019-09-01 19:04:00 +0800] [62285] [INFO] Worker exiting (pid: 62285)
+[2019-09-01 19:04:00 +0800] [62325] [INFO] Booting worker with pid: 62325
+[2019-09-01 19:09:36 +0800] [61867] [CRITICAL] WORKER TIMEOUT (pid:62325)
+[2019-09-01 19:09:36 +0800] [62325] [INFO] Worker exiting (pid: 62325)
+[2019-09-01 19:09:36 +0800] [62385] [INFO] Booting worker with pid: 62385
+[2019-09-01 19:15:11 +0800] [61867] [CRITICAL] WORKER TIMEOUT (pid:62385)
+[2019-09-01 19:15:11 +0800] [62385] [INFO] Worker exiting (pid: 62385)
+[2019-09-01 19:15:11 +0800] [62423] [INFO] Booting worker with pid: 62423
+[2019-09-01 19:20:47 +0800] [61867] [CRITICAL] WORKER TIMEOUT (pid:62423)
+[2019-09-01 19:20:47 +0800] [62423] [INFO] Worker exiting (pid: 62423)
+[2019-09-01 19:20:47 +0800] [62460] [INFO] Booting worker with pid: 62460
+[2019-09-01 19:26:23 +0800] [61867] [CRITICAL] WORKER TIMEOUT (pid:62460)
+[2019-09-01 19:26:23 +0800] [62460] [INFO] Worker exiting (pid: 62460)
+[2019-09-01 19:26:23 +0800] [62496] [INFO] Booting worker with pid: 62496
+[2019-09-01 19:31:58 +0800] [61867] [CRITICAL] WORKER TIMEOUT (pid:62496)
+[2019-09-01 19:31:58 +0800] [62496] [INFO] Worker exiting (pid: 62496)
+[2019-09-01 19:31:59 +0800] [62534] [INFO] Booting worker with pid: 62534
+[2019-09-01 19:37:34 +0800] [61867] [CRITICAL] WORKER TIMEOUT (pid:62534)
+[2019-09-01 19:37:34 +0800] [62534] [INFO] Worker exiting (pid: 62534)
+[2019-09-01 19:37:34 +0800] [62571] [INFO] Booting worker with pid: 62571
+[2019-09-01 20:45:22 +0800] [61867] [CRITICAL] WORKER TIMEOUT (pid:62571)
+[2019-09-01 20:45:22 +0800] [62571] [INFO] Worker exiting (pid: 62571)
+[2019-09-01 20:45:23 +0800] [62608] [INFO] Booting worker with pid: 62608
+[2019-09-01 21:00:12,596] INFO in server: {'host': 'localhost', 'server_port': 9876, 'debug': False, 'log_level': 'INFO', 'validate': True, 'model_name': 'classify_iris'}
+[2019-09-01 21:00:12 +0800] [62608] [INFO] {'host': 'localhost', 'server_port': 9876, 'debug': False, 'log_level': 'INFO', 'validate': True, 'model_name': 'classify_iris'}
+[2019-09-01 21:00:12,598] INFO in server: 
+ Please visit: http://ip:9876/models/classify_iris/ 
+ 
+[2019-09-01 21:00:12 +0800] [62608] [INFO] 
+ Please visit: http://ip:9876/models/classify_iris/ 
+ 
+[2019-09-01 21:00:12,604] INFO in server: http://localhost:9876/models/classify_iris/
+[2019-09-01 21:00:12 +0800] [62608] [INFO] http://localhost:9876/models/classify_iris/
+[2019-09-01 21:00:12,607] INFO in server: [receive] {'submodel': 'all', 'key': '12345678901', 'data': {'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2}}
+[2019-09-01 21:00:12 +0800] [62608] [INFO] [receive] {'submodel': 'all', 'key': '12345678901', 'data': {'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2}}
+[2019-09-01 21:00:12,608] INFO in server: [send] {'key': '12345678901', 'subtype': 'all', 'result': {'code': 0, 'msg': 'success', 'score': 0.0}}
+[2019-09-01 21:00:12 +0800] [62608] [INFO] [send] {'key': '12345678901', 'subtype': 'all', 'result': {'code': 0, 'msg': 'success', 'score': 0.0}}
+[2019-09-01 21:21:03 +0800] [61867] [INFO] Handling signal: int
+[2019-09-01 21:21:03 +0800] [62608] [INFO] Worker exiting (pid: 62608)
+[2019-09-01 21:21:03 +0800] [61867] [INFO] Shutting down: Master

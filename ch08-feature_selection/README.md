@@ -1,4 +1,8 @@
-# 请参考书中内容实践
+# 第8章 特征选择
+
+相关数据和代码
+
+## 请参考书中内容实践
 
 不急，慢点学习。
 
@@ -130,7 +134,7 @@ selected
 
  ['petal length (cm)', 'petal width (cm)', 'sepal length (cm)']
 ```
-   
+
 ```python
 # 特征选择明细
 

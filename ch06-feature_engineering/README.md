@@ -1,3 +1,4 @@
+# 第6章 特征工程
 
 之所以没有直接给jupyter notebook而是这里的文档,是希望大家实践时慢一点，思考一下，然后再执行。请对照书中讲解操作：
 
@@ -151,7 +152,7 @@ map_data_by_value_count(x, 2)
 ```
 
     split to 2+1 category
-
+    
     {'a': 0, 'c': 1, 'd': 2, 'b': 2, 'e': 2}
 
 ```python
@@ -242,7 +243,7 @@ df.shape
 ```
 
     (569, 31)
-    
+
 ## 基础离散化方法
 
 ```python
@@ -286,7 +287,7 @@ cutoff
 ```
 
     array([ 6.981, 11.7  , 13.37 , 15.78 , 28.11 ])
-    
+
 ## 高级离散化方法
 
 ### 熵
@@ -319,7 +320,7 @@ cutoff = cutoff.tolist()
 
 ```
     [10.945, 13.095, 13.705, 15.045, 17.8, 17.88]
-    
+
 ### 最小熵离散化
 
 
@@ -333,7 +334,7 @@ cut_by_entropy(df[['mean radius','target']],'target',margin=0.001)
     max_p=17.91,gain=0.08068906189021191
     max_p=17.85,gain=0.03769847832682838
     max_p=17.91,gain=-0.0
-
+    
     [10.95, 13.11, 13.71, 15.05, 17.85, 17.91]
 
 ### Best-KS离散化
@@ -345,7 +346,7 @@ df_ks = CalKS.cal_ks(
 ```
 
     KS: 0.728621637334179
-    
+
 ```python
 bestks_cut (df[['mean radius','target']],'target')
 ```
@@ -357,9 +358,9 @@ bestks_cut (df[['mean radius','target']],'target')
     KS: 0.6433747412008282
     KS: 0.24090909090909093
     KS: 0.829059829059829
-
-    [11.75, 13.7, 13.08, 15.04, 16.84, 15.27, 17.85]
     
+    [11.75, 13.7, 13.08, 15.04, 16.84, 15.27, 17.85]
+
 ### 卡方离散化
 
 减少了精度，便于演示和快速计算和查看
@@ -414,7 +415,7 @@ _c1 = lambda x: x < threshold
     Data Error
     Data Error
     Data Error
-    
+
 ```python
 while _c1(cvs.min()):
     cvs, freq, cutoff = chi2_merge_core(cvs, freq, cutoff, cvs.argmin())

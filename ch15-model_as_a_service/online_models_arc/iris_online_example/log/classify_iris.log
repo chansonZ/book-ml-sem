@@ -1,0 +1,51 @@
+[20190901 12:33:52] [INFO] {'host': 'localhost', 'server_port': 9876, 'debug': False, 'log_level': 'INFO', 'validate': True, 'model_name': 'classify_iris'}
+[20190901 12:33:52] [INFO] 
+ Please visit: http://ip:9876/models/classify_iris/ 
+ 
+[20190901 12:33:52] [INFO] http://localhost:9876/models/classify_iris
+[20190901 12:34:36] [INFO] http://localhost:9876/models/classify_iris
+[20190901 12:35:59] [INFO] http://127.0.0.1:9876/models/classify_iris
+[20190901 12:37:33] [INFO] http://localhost:9876/models/classify_iris/
+[20190901 12:37:33] [INFO] [receive] {'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2}
+[20190901 12:37:33] [INFO] [send] {'key': 'None', 'subtype': None, 'result': {'code': 102, 'msg': "The input paramters:dict_keys(['sepal_length', 'sepal_width', 'petal_length', 'petal_width']) do not match the right parameters:['subtype', 'key', 'data']", 'score': ''}}
+[20190901 12:47:03] [INFO] http://localhost:9876/models/classify_iris/
+[20190901 12:47:03] [INFO] [receive] {'submodel': 'all', 'key': '12345678901', 'data': {'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2}}
+[20190901 12:47:03] [INFO] [send] {'key': '12345678901', 'subtype': None, 'result': {'code': 102, 'msg': "The input paramters:dict_keys(['submodel', 'key', 'data']) do not match the right parameters:['subtype', 'key', 'data']", 'score': ''}}
+[20190901 12:48:07] [INFO] {'host': 'localhost', 'server_port': 9876, 'debug': False, 'log_level': 'INFO', 'validate': True, 'model_name': 'classify_iris'}
+[20190901 12:48:07] [INFO] 
+ Please visit: http://ip:9876/models/classify_iris/ 
+ 
+[20190901 12:48:07] [INFO] http://localhost:9876/models/classify_iris/
+[20190901 12:48:07] [ERROR] {'key': '', 'subtype': '', 'result': {'code': 401, 'msg': "predict_proba is not available when  probability=False:{'submodel': 'all', 'key': '12345678901', 'data': {'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2}}", 'score': ''}}
+[20190901 12:48:07] [INFO] [receive] {'submodel': 'all', 'key': '12345678901', 'data': {'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2}}
+[20190901 12:48:07] [INFO] [send] {'key': '', 'subtype': '', 'result': {'code': 401, 'msg': "predict_proba is not available when  probability=False:{'submodel': 'all', 'key': '12345678901', 'data': {'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2}}", 'score': ''}}
+[20190901 12:52:02] [INFO] {'host': 'localhost', 'server_port': 9876, 'debug': False, 'log_level': 'INFO', 'validate': True, 'model_name': 'classify_iris'}
+[20190901 12:52:02] [INFO] 
+ Please visit: http://ip:9876/models/classify_iris/ 
+ 
+[20190901 12:52:02] [INFO] http://localhost:9876/models/classify_iris/
+[20190901 12:52:02] [ERROR] {'key': '', 'subtype': '', 'result': {'code': 401, 'msg': "invalid index to scalar variable.:{'submodel': 'all', 'key': '12345678901', 'data': {'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2}}", 'score': ''}}
+[20190901 12:52:02] [INFO] [receive] {'submodel': 'all', 'key': '12345678901', 'data': {'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2}}
+[20190901 12:52:02] [INFO] [send] {'key': '', 'subtype': '', 'result': {'code': 401, 'msg': "invalid index to scalar variable.:{'submodel': 'all', 'key': '12345678901', 'data': {'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2}}", 'score': ''}}
+[20190901 13:30:08] [INFO] {'host': 'localhost', 'server_port': 9876, 'debug': False, 'log_level': 'INFO', 'validate': True, 'model_name': 'classify_iris'}
+[20190901 13:30:08] [INFO] 
+ Please visit: http://ip:9876/models/classify_iris/ 
+ 
+[20190901 13:30:08] [INFO] http://localhost:9876/models/classify_iris/
+[20190901 13:30:08] [ERROR] {'key': '', 'subtype': '', 'result': {'code': 401, 'msg': "invalid index to scalar variable.:{'submodel': 'all', 'key': '12345678901', 'data': {'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2}}", 'score': ''}}
+[20190901 13:30:08] [INFO] [receive] {'submodel': 'all', 'key': '12345678901', 'data': {'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2}}
+[20190901 13:30:08] [INFO] [send] {'key': '', 'subtype': '', 'result': {'code': 401, 'msg': "invalid index to scalar variable.:{'submodel': 'all', 'key': '12345678901', 'data': {'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2}}", 'score': ''}}
+[20190901 13:34:30] [INFO] {'host': 'localhost', 'server_port': 9876, 'debug': False, 'log_level': 'INFO', 'validate': True, 'model_name': 'classify_iris'}
+[20190901 13:34:30] [INFO] 
+ Please visit: http://ip:9876/models/classify_iris/ 
+ 
+[20190901 13:34:30] [INFO] http://localhost:9876/models/classify_iris/
+[20190901 13:34:30] [INFO] [receive] {'submodel': 'all', 'key': '12345678901', 'data': {'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2}}
+[20190901 13:34:30] [INFO] [send] {'key': '12345678901', 'subtype': 'all', 'result': {'code': 0, 'msg': 'success', 'score': 0.0}}
+[20190901 21:00:12] [INFO] {'host': 'localhost', 'server_port': 9876, 'debug': False, 'log_level': 'INFO', 'validate': True, 'model_name': 'classify_iris'}
+[20190901 21:00:12] [INFO] 
+ Please visit: http://ip:9876/models/classify_iris/ 
+ 
+[20190901 21:00:12] [INFO] http://localhost:9876/models/classify_iris/
+[20190901 21:00:12] [INFO] [receive] {'submodel': 'all', 'key': '12345678901', 'data': {'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2}}
+[20190901 21:00:12] [INFO] [send] {'key': '12345678901', 'subtype': 'all', 'result': {'code': 0, 'msg': 'success', 'score': 0.0}}
