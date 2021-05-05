@@ -83,7 +83,7 @@ def judge(score_dict):
 
 
 
-## 第5章 138页—代码对齐问题
+# 第5章 138页—代码对齐问题
 
 
 
@@ -111,4 +111,14 @@ def judge(score_dict):
         else:
             return DFutils.ser_index(DFutils.count_na_col(df) == df.shape[0])
 ```
+
+# 第8章 209页 公式8-3
+
+错误：
+
+<img src="./imgs/e2.jpg" align=center />
+
+更正为：
+
+<img src="./imgs/r2.jpg"  align=center />
 
