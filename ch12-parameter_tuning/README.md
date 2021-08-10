@@ -67,7 +67,7 @@ Best: 0.779 : {'C': 0.1, 'penalty': 'l2', 'solver': 'liblinear'}
 
 1）准备数据：
 
-```
+```python
 from sklearn.datasets import load_breast_cancer
 from sklearn.model_selection import train_test_split
 
@@ -80,7 +80,7 @@ X_train, X_test, y_train, y_test = train_test_split(X,
 
 2)调参工具类初始化：
 
-```
+```python
 tb = TuneXGB(X_train,y_train)
 ```
 
@@ -112,7 +112,7 @@ tb.show_default_para()
 ```
 
 5)调参过程中随时更新参数：
-```
+```python
 tb.update_cur_params({'n_estimators':180})
 ```
 
@@ -141,30 +141,30 @@ Save estimator at:3
 
 7)增量调参：
 
-```
+```python
 tb.tune_sequence()
 ```
 
 8)获取当前学习器：
 
-```
+```python
 tb.get_cur_estimator()
 ```
 
 9)查看历史参数和学习器：
-```
+```python
 tb.history_paras
 tb.history_estimator
 ```
 
 10）进行网格搜索：
 
-```
+```python
 tb_gs = tb.grid_search({'reg_lambda': [0.01, 0.1, 1.0, 10, 100, 200, 1000]})
 ```
 
 11)进行随机搜索：
-```
+```python
 tb_rs = tb.random_search({'colsample_bytree_loc':0.3})
 ```
 
