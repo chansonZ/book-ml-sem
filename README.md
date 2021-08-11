@@ -136,6 +136,5 @@ In-depth description of linear model, tree model and integrated model principle 
 当当：http://product.dangdang.com/29163426.html
 
 
-
-![海报](poster.jpeg)
+<img src="poster.jpg" width = "375" height = "2045" alt="" align=center />
 
