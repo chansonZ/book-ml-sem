@@ -123,6 +123,8 @@ In-depth description of linear model, tree model and integrated model principle 
 # 问题反馈
 
 - GitHub
+- 知乎：https://www.zhihu.com/people/chansonz
+- 豆瓣：https://book.douban.com/subject/35275781/
 - WeChat
 
 <img src="Wechat.jpeg" width = "430" height = "430" alt="" align=center />
@@ -137,5 +139,5 @@ In-depth description of linear model, tree model and integrated model principle 
 
 # 海报
 
-<img src="poster.jpeg" width = "562" height = "3068" alt="" align=center />
+<img src="poster.jpeg" width = "562.5" height = "3068.25" alt="" align=center />
 
