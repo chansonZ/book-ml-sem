@@ -67,6 +67,9 @@ docker pull chansonz/ml_dev_env
 
 ## 新建项目工程
 
+**说明**：cute-datascience-sem 即 上述文件夹：cute-datascience-chanson
+
+
 ```
 [ ~ ]# cookiecutter  ~/cute-datascience-sem
 project_name [project_name]: example_project
