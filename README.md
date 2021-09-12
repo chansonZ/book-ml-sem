@@ -2,7 +2,7 @@
 
 Method and implementation of machine learning software engineering
 
-<img src="cover.jpg" width = "383" height = "500" alt="" align=center />
+<img src="cover.jpg" width = "300" alt="" align=center />
 
 
 ## 内容简介
@@ -126,7 +126,7 @@ In-depth description of linear model, tree model and integrated model principle 
 - 豆瓣：https://book.douban.com/subject/35275781/
 - WeChat
 
-<img src="Wechat.jpeg" style="zoom:50%;"    align=center />
+<img src="Wechat.jpeg" width = "300"    align=center />
 
 
 # 购买链接
@@ -138,5 +138,5 @@ In-depth description of linear model, tree model and integrated model principle 
 
 # 海报
 
-<img src="poster.jpeg" style="zoom:50%;"  align=center />
+<img src="poster.jpeg" width = "520"   align=center />
 
