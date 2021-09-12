@@ -112,13 +112,33 @@ def judge(score_dict):
             return DFutils.ser_index(DFutils.count_na_col(df) == df.shape[0])
 ```
 
+
+
+# 第6章 153页—公式6-3
+
+错误：
+
+<img src="./imgs/e3.png" style="zoom:50%;" />
+
+
+
+更正为：
+
+
+
+<img src="./imgs/r3.png" style="zoom:50%;" />
+
+> 感谢读者：Amazing_lin_
+
+
+
 # 第8章 209页 公式8-3
 
 错误：
 
-<img src="./imgs/e2.jpg" align=center />
+<img src="./imgs/e2.jpg " style="zoom:50%;" align=center />
 
 更正为：
 
-<img src="./imgs/r2.jpg"  align=center />
+<img src="./imgs/r2.jpg"  style="zoom:50%;" align=center />
 
