@@ -118,7 +118,7 @@ def judge(score_dict):
 
 错误：
 
-<img src="./imgs/e3.png" style="zoom:50%;" />
+<img src="./imgs/e3.png" width = "300" />
 
 
 
@@ -126,7 +126,7 @@ def judge(score_dict):
 
 
 
-<img src="./imgs/r3.png" style="zoom:50%;" />
+<img src="./imgs/r3.png" width = "300" />
 
 > 感谢读者：Amazing_lin_
 
@@ -136,9 +136,9 @@ def judge(score_dict):
 
 错误：
 
-<img src="./imgs/e2.jpg " style="zoom:50%;" align=center />
+<img src="./imgs/e2.jpg "  width = "400" align=center />
 
 更正为：
 
-<img src="./imgs/r2.jpg"  style="zoom:50%;" align=center />
+<img src="./imgs/r2.jpg"   width = "400" align=center />
 
