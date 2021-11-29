@@ -142,3 +142,9 @@ def judge(score_dict):
 
 <img src="./imgs/r2.jpg"   width = "400" align=center />
 
+
+# 第10章 266页 计算式
+
+1、计算各特征的H(D)中，分母部分都是12，应该是16，且log的括号中都为正数
+
+2、计算A4的信息增益率的分母错误写为0，应该为0.989
